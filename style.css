@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #131829;
+  }
+  
+  .header {
+    background-color: #131829;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  .header p {
+    margin: 5px 0;
+    font-size: 18px;
+  }
+  
+  .content {
+    text-align: center;
+    margin-top: 5%;
+    padding: 40px;
+  }
+  
+  .under-construction {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    animation: fadeIn 1s ease-out;
+  }
+  
+  .cobraCont {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    animation: fadeIn 1s ease-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .under-construction img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .nav {
+    display: inline-flex;
+    width: auto;
+  } 
+
+  .under-construction h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .logo img {
+    width: auto;
+    height: 40px;
+    margin: 5px;
+    margin-bottom: 20px;
+  }
+
+  .menuNav {
+    display: inline-flex;
+    padding-left: 250%;
+
+    height: 40px;
+    margin: 10px;
+    margin-bottom: 20px;
+  }
+
+  .menuH{
+    margin-left: 10px;
+    color: white;
+  }
+
+  .navMenu {
+    height: 69px;
+
+    display: inline-flex;
+    align-items:end;
+  }
+  
+  .footer {
+    background-color: #131829;
+    color: #0487D9;
+    text-align: center;
+    margin-top: auto;
+    padding: 10px;
+  }
+  
