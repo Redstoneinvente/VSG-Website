@@ -17,3 +17,5 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_VSG_MARKETING_WEBSITE }}'
           channelId: live
           projectId: vsg-marketing-website
+        env:
+         FIREBASE_CLI_EXPERIMENTS: webframeworks
